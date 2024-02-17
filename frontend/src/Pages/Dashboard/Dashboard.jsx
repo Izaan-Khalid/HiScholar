@@ -4,12 +4,14 @@ import { Navbar } from '../../Components/Navbar/Navbar'
 export const Dashboard = () => {
   return (
     <div>
-        <Navbar />
+        <Navbar /> 
         <main>
           <h1>
-            WEBSIDE HELLO SKOOLAR
+            HiScholar
           </h1>
         </main>
     </div>
   )
 }
+
+export default Dashboard

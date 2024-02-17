@@ -1,21 +1,24 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { Dashboard, Inbox, Profile, Scholarships, Tasks, Volunteering } from './Pages/index';
+import { Careers, Checklist, Colleges, Dashboard, FinancialAid, MyCounselor, MyPoints, Profile, Scholarships, Volunteering } from './Pages/index';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
         <div>
           <Routes>
             <Route path="/" element={<Dashboard  />} />
-            <Route path="/inbox" element={<Inbox  />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/scholarships" element={<Scholarships />} />
-            <Route path="/tasks" element={<Tasks/>} />
+            <Route path="/checklist" element={<Checklist  />} />
+            <Route path="/counselor" element={<MyCounselor />} />
+            <Route path="/points" element={<MyPoints />} />
+            <Route path="/financial-aid" element={<FinancialAid/>} />
+            <Route path="/scholarships" element={<Scholarships/>} />
+            <Route path="/colleges" element={<Colleges/>} />
+            <Route path="/careers" element={<Careers/>} />
             <Route path="/volunteering" element={<Volunteering/>} />
+            <Route path="/profile" element={<Profile/>} />
           </Routes>
         </div>
       </Router>

@@ -1,15 +1,23 @@
 import { Dashboard } from "./Dashboard/Dashboard";
-import { Inbox } from "./Inbox/Inbox";
+import { Checklist } from "./Checklist/Checklist";
 import { Profile } from "./Profile/Profile";
 import { Scholarships } from "./Scholarships/Scholarships";
-import { Tasks } from "./Tasks/Tasks";
+import { MyPoints } from "./My Points/MyPoints";
 import { Volunteering } from "./Volunteering/Volunteering";
+import { Careers } from "./Careers/Careers";
+import { Colleges } from "./Colleges/Colleges";
+import { FinancialAid } from "./FinancialAid/FinancialAid";
+import { MyCounselor } from "./My Counselor/MyCounselor";
 
 export {
     Dashboard,
-    Inbox,
+    Checklist,
     Profile,
     Scholarships,
-    Tasks,
+    MyPoints,
     Volunteering,
+    Careers,
+    Colleges,
+    FinancialAid,
+    MyCounselor,
 };
