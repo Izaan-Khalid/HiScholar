@@ -1,8 +1,53 @@
 .sidenav {
     width: 5rem;
     background: rgb(226, 226, 226);
-    position: absolute;
+    position: fixed;
     height: 100%;
-    padding: 0 30px;
-    transition: all 1s;
+}
+
+.sidenav-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 100%;
+    margin-left: 1.5em;
+    
+}
+
+.sidenav-nav:last-child {
+    margin-top: auto;
+} 
+
+.link-text {
+    display: none;
+}
+
+/* .sidenav-item {
+    width: 100%;
+} */
+
+.sidenav-link {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    text-decoration: none;
+    color: blue;
+    margin-top: 1em;
+}
+
+.sidenav:hover {
+    width: 16rem;
+}
+
+.sidenav:hover .link-text {
+    display:contents;
+    
+}
+
+.sidenav:hover .sidenav-icons {
+    justify-content: left;
+    align-items:flex-start;
 }
