@@ -8,6 +8,7 @@ import { Careers } from "./Careers/Careers";
 import { Colleges } from "./Colleges/Colleges";
 import { FinancialAid } from "./FinancialAid/FinancialAid";
 import { MyCounselor } from "./My Counselor/MyCounselor";
+import { Landing } from "./Landing/Landing";
 
 export {
     Dashboard,
@@ -20,4 +21,5 @@ export {
     Colleges,
     FinancialAid,
     MyCounselor,
+    Landing,
 };

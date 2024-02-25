@@ -7,7 +7,7 @@ export const Dashboard = () => {
         <Navbar /> 
         <main>
           <h1>
-            HiScholar
+            Dashboard
           </h1>
         </main>
     </div>

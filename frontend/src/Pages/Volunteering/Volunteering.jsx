@@ -1,7 +1,15 @@
 import React from 'react'
+import { Navbar } from '../../Components/index'
 
 export const Volunteering = () => {
   return (
-    <div>Volunteering</div>
+    <div>
+      <Navbar /> 
+      <main>
+        <h1>
+          Volunteering
+        </h1>
+      </main>
+    </div>
   )
 }

@@ -9,7 +9,7 @@ export const Navbar = () => {
       <nav className='sidenav'>
         <ul className='sidenav-nav'>
           <li className='sidenav-item'>
-            <a href='/' className='sidenav-link'>
+            <a href='/dashboard' className='sidenav-link'>
               <FontAwesomeIcon icon={faHouse} className='sidenav-icons fa-2x' />
               <span className='link-text'>Dashboard</span>
             </a>
@@ -25,14 +25,14 @@ export const Navbar = () => {
           <li className='sidenav-item'>
             <a href='/counselor' className='sidenav-link'>
               <FontAwesomeIcon icon={faSchool} className='sidenav-icons fa-2x' />
-              <span className='link-text'>My Counselor</span>
+              <span className='link-text'>Counselor</span>
             </a>
           </li>
 
           <li className='sidenav-item'>
             <a href='/points' className='sidenav-link'>
               <FontAwesomeIcon icon={faStar} className='sidenav-icons fa-2x' />
-              <span className='link-text'>My Points</span>
+              <span className='link-text'>Points</span>
             </a>
           </li>
 

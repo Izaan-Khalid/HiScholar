@@ -1,8 +1,16 @@
 import React from "react";
+import { Navbar } from '../../Components/index'
 
 export const Careers = () => {
     return(
-        <div>Careers</div>
+        <div>
+            <Navbar /> 
+            <main>
+                <h1>
+                    Careers
+                </h1>
+            </main>
+        </div>
     )
 }
 

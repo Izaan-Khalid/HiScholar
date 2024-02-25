@@ -1,8 +1,16 @@
 import React from "react";
+import { Navbar } from '../../Components/index'
 
 export const MyCounselor = () => {
     return (
-      <div>MyCounselor</div>
+      <div>
+      <Navbar /> 
+      <main>
+        <h1>
+          My Counselor
+        </h1>
+      </main>
+    </div>
     )
   }
   
