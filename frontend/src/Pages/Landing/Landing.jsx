@@ -1,9 +1,12 @@
 import React from 'react'
+import { Features, Footer, LandingNav } from '../../Landing Components/index.js'
 
 export const Landing = () => {
   return (
-    <div className="text-3xl font-bold underline">
-      Landing
+    <div>
+      <LandingNav />
+      <Features />
+      <Footer />
     </div>
   )
 }
