@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { Careers, Checklist, Colleges, Dashboard, FinancialAid, Landing, MyCounselor, MyPoints, Profile, Scholarships, Volunteering } from './Pages/index';
+import { Careers, Checklist, Colleges, Dashboard, FinancialAid, Landing, Login, MyCounselor, MyPoints, Profile, Scholarships, Volunteering } from './Pages/index';
 import './App.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Landing />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard  />} />
             <Route path="/checklist" element={<Checklist  />} />
             <Route path="/counselor" element={<MyCounselor />} />
